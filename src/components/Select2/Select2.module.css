@@ -1,0 +1,60 @@
+.Select2 {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1.3rem .5rem;
+    position: relative;
+    width: 100%;
+}
+
+.SelectNormal {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1.3rem .5rem;
+    position: relative;
+    width: 100%;
+}
+
+.SelectNormal > div >div:nth-child(2),  .Select2 label > div >div:nth-child(2){
+    height: 40px!important;
+    padding: 0;
+}
+
+.SelectNormal label, .Select2 label {
+    position: absolute;
+    font-size: 1rem!important;
+    margin-left: 1rem;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.Select2 label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: .35rem;
+    color: var(--color-primary);
+}
+
+.normal {
+    text-transform: none!important;
+}
+
+@media(max-width: 768px) {
+    .Select2 label {
+        font-size: 1.2rem;
+    }
+    .Select2 {
+        margin-top: 1.3rem;
+    }
+
+    .SelectNormal {
+        margin-top: 1.3rem;
+    }
+
+    .SelectNormal label {
+        font-size: 1.2rem;
+    }
+}

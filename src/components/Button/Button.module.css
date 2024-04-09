@@ -1,0 +1,72 @@
+.Button {
+    margin: .5rem;
+    width: 100%;
+}
+
+.Button button {
+    padding: .9rem;
+    font-size: 1.2rem;
+    width: 100%;
+    color: white;
+    border-radius: .4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: var(--color-primary);
+}
+
+.Button button:hover {
+    transition: all .4s ease;
+    -webkit-transition: all .8s ease;
+}
+
+.add {
+    color: white;
+    border-radius: .5rem;
+    margin: .5rem 0 .5rem auto;
+    padding: .5rem;
+    font-size: 1rem;
+    background-color: #88c54b;
+    max-width: 80px;
+    max-height: 30px;
+}
+
+.Delete {
+    color: white;
+    border-radius: .5rem;
+    margin: .5rem 0 .5rem auto;
+    padding: .5rem;
+    font-size: 1rem;
+    background-color: var(--color-danger);
+    max-width: 80px;
+    max-height: 30px;
+}
+
+.Destroy {
+    color: white;
+    border-radius: .5rem;
+    margin: 0 .5rem;
+    padding: .2rem;
+    background-color: var(--color-danger);
+    max-width: 80px;
+    max-height: 30px;
+}
+
+.success {
+    background-color: #88c54b !important;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.canceled {
+    background-color: var(--color-danger) !important;
+}
+
+.grey {
+    background-color: lightslategrey !important;
+    color: white;
+}

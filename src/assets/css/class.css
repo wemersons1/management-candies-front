@@ -1,0 +1,170 @@
+.d-flex {
+    display: flex;
+}
+
+.m-2 {
+    margin: .5rem;
+}
+
+.mt-5r {
+    margin-top: 5rem;
+}
+
+.add {
+    background-color: var(--color-success);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    padding: .5rem;
+    border: .5rem;
+    width: 100px;
+    border-radius: .5rem;
+}
+
+.button-delete {
+    color: white;
+    border-radius: .5rem;
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 1.3rem;
+    background-color: var(--color-danger);
+}
+
+.button-info {
+    color: white;
+    border-radius: .5rem;
+    margin: .5rem;
+    padding: .5rem;
+    font-size: 1.3rem;
+    background-color: var(--color-tertiary);
+}
+
+/* icons */
+
+.icon-green {
+    fill: green;
+    font-size: 2rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    text-align: center;
+    color: black!important;
+}
+
+.icon-waiting {
+    font-size: 2rem;
+    fill: var(--color-primary3);
+}
+
+.icon-warning {
+    font-size: 2rem;
+    fill: var(--color-warning);
+}
+
+.table-responsible {
+    width: 100%;
+}
+
+.icon-grey {
+    font-size: 2rem;
+    fill: grey;
+    color: grey;
+}
+
+.icon-warning {
+    font-size: 2rem;
+    fill: var(--color-warning);
+}
+
+.icon-red {
+    font-size: 2rem;
+    fill: red;
+}
+
+.icon-success {
+    font-size: 2rem;
+    fill: var(--color-success);
+}
+
+.icon-verify {
+    font-size: 2rem;
+    fill: var(--color-menu);
+}
+
+.icon-danger {
+    font-size: 2rem;
+    fill: var(--color-danger);
+}
+
+.icon-left {
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+.icon-white {
+    fill: white;
+    color: white;
+}
+
+.icon {
+    background-color: transparent;
+    font-size: 1.4rem;
+    margin: 0 1rem .4rem 0;
+    fill: white;
+}
+.icon-right {
+    margin-left: .5rem;
+    font-size: 2rem;
+}
+
+.info-success {
+    display: inline-block;
+    padding: 0 1rem;
+    background-color: var(--color-success);
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    color:white!important;
+    white-space: nowrap;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.info-danger {
+    display: inline-block;
+    padding: 0 1rem;
+    background-color: var(--color-danger);
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    color:white!important;
+    white-space: nowrap;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.font-default {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.options-mask {
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: black;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 7px;
+}
+
+.options-mask:hover {
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+@media(max-width: 728px) {
+    .table-responsible {
+        overflow-x: scroll;
+    }
+}

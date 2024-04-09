@@ -1,0 +1,73 @@
+.small td, .small th, .small tr{
+    font-size: 10px;
+    padding: 5px!important;
+
+}
+
+.small td:first-child{
+    font-size: 8px;
+    padding: 5px!important;
+
+}
+
+.small {
+    overflow-x: hidden!important;
+}
+
+.customers {
+    border-collapse:collapse;
+    width: 100%;
+    font-size: 1.2rem;
+    border-left: 1px solid lightgrey;
+}
+
+.customers tr:hover {
+    cursor: default;
+    filter: brightness(85%);
+}
+
+.customers > thead {
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 2px;
+}
+
+.customers td{
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid  #e9e9e9;
+}
+
+.customers th {
+    padding: 8px;
+    text-align: center;
+}
+.customers tr:nth-child(even){background-color: var(--color-light-white);}
+
+.customers tr:nth-child(odd){background-color: #f0f0f0;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /*text-align: left;*/
+    background-color: var(--color-light-white);
+    color: black;
+}
+
+.idCamp{
+    width: 5%;
+}
+
+.dateCamp{
+    width: 14%;
+}
+
+.SortIndication {
+    font-size: 1rem;
+}
+
+.customers tr td a {
+    margin-right: 0.5rem;
+}

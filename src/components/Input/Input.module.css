@@ -1,0 +1,156 @@
+.FormGroup {
+    position: relative;
+    width: 100%;
+    margin: .5rem;
+}
+
+.FormGroup input {
+    text-align: start;
+    text-indent: 10px;
+}
+
+.GroupSearch input {
+    text-align: start;
+    text-indent: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 2.4px 2.4px 7px;
+}
+
+.GroupSearch {
+    display: flex;
+    align-items: center;
+}
+
+.GroupSearch button {
+    padding: .65rem .5rem;
+    background-color: white;
+    border-radius: .2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 2.4px 2.4px 7px;
+}
+
+.GroupSearch button:hover {
+    filter: brightness(80%);
+}
+
+.GroupSearch>div:first-child {
+    flex: 9;
+    border-radius: .2rem;
+}
+
+.GroupSearch>div:last-child {
+    flex: 1;
+    border-radius: .2rem;
+}
+
+.FormGroup label {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: -.2rem;
+    display: block;
+    transition: all .3s;
+    padding: .8rem 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: var(--color-light-dark);
+}
+
+.FormGroup input:placeholder-shown+label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-4rem);
+}
+
+.Input {
+    padding: .7rem 0;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    width: 100%;
+    color: var(--color-primary);
+    text-align: center!important;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    border-radius: 3px;
+    transition: all .2s;
+}
+
+.Input:focus {
+    outline: none;
+    border-bottom: 3px solid var(--color-primary);
+    box-shadow: 0 10px 27px -19px rgba(0, 0, 0, 0.74);
+}
+
+.Input:focus:invalid {
+    outline: none;
+    border-bottom: 3px solid var(--color-tertiary);
+    box-shadow: 0 10px 27px -19px rgba(0, 0, 0, 0.74);
+}
+
+.Input::placeholder {
+    color: lightgrey;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+
+.InputFile {
+    display: flex;
+    flex-direction: column;
+}
+
+.InputFile span {
+    font-size: 1.2rem;
+}
+
+.ButtonFile {
+    padding: .3rem 1rem;
+    background-color: var(--color-primary);
+    color: white !important;
+    font-weight: bold;
+    border-radius: .4rem;
+    margin-right: .5rem;
+}
+
+.ButtonFile:hover {
+    cursor: pointer;
+    transition: all .4s ease;
+    -webkit-transition: all .8s ease;
+}
+
+.InputFile div {
+    font-size: 1rem;
+}
+
+.InputFile label {
+    font-weight: bold;
+    color: var(--color-light-dark);
+    font-size: 1rem;
+}
+
+.Pago,
+.Pendente,
+.Cancelado {
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-align: center !important;
+    letter-spacing: .5rem;
+    font-weight: bold;
+}
+
+.Pago {
+    background-color: var(--color-success) !important;
+}
+
+.Pendente {
+    background-color: var(--color-warning) !important;
+}
+
+.Cancelado {
+    background-color: var(--color-danger) !important;
+}
+
+.border {
+    border: 1px solid lightgrey;
+}

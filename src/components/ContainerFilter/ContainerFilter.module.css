@@ -1,0 +1,9 @@
+.ContainerFilter {
+    padding: 1rem;
+    border-radius: .2rem;
+    background-color: white;
+    -webkit-box-shadow: 5px 5px 3px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 5px 5px 3px rgba(50, 50, 50, 0.5);
+    box-shadow: 5px 5px 3px rgba(50, 50, 50, 0.2);
+    margin: 1rem .5rem;
+}

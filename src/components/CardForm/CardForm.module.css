@@ -1,0 +1,123 @@
+.smaller {
+    margin: 2rem auto;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    min-width: 18rem;
+    max-width: 45rem;
+    background-color: var(--color-secondary);
+    position: relative;
+}
+
+.Number {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.smaller > h6 {
+    text-transform: uppercase;
+    color: white;
+    margin-left: .5rem;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+.smaller > div > span {
+    color: white;
+    margin-left: .5rem;
+}
+
+.medium hr {
+    border-color: white;
+}
+
+.medium > h6 {
+    text-transform: uppercase;
+    color: white;
+    margin-left: .85rem;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+.default {
+    min-height: 250px;
+    padding: 0 1rem;
+}
+
+.smallerTransparent {
+    margin: 2rem auto;
+    min-width: 18rem;
+    max-width: 45rem;
+}
+
+.medium {
+    margin: 2rem auto;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    min-width: 25rem;
+    max-width: 60rem;
+    background-color: var(--color-secondary);
+    padding: 1rem;
+}
+
+.medium > div > span {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem .5rem .5rem .5rem;
+    display: inline-block;
+}
+
+
+.medium-p0 {
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    min-width: 25rem;
+    max-width: 60rem;
+    background-color: var(--color-secondary);
+    margin-top: .5rem;
+    padding: .5rem;
+}
+
+.medium-p0> div > span {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem .5rem .5rem .5rem;
+    display: inline-block;
+}
+
+.bigger {
+    margin: 2rem auto;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    min-width: 45rem;
+    max-width: 70rem;
+}
+
+.biggest {
+    margin: 2rem auto;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    width: 95%;
+}
+
+.full {
+    margin: 2rem auto;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    min-width: 36rem;
+    max-width: 100rem;
+}
+
+@media(max-width: 768px) {
+    .smaller, .medium, .bigger, .biggest {
+        min-width: 100%;
+    }
+}

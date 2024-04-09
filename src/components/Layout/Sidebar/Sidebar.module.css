@@ -1,0 +1,46 @@
+.sidebar {
+    width: 250px;
+    background-color: var(--color-primary);
+    color: #fff;
+    min-height: 100vh;
+}
+
+.Logo {
+    margin: 2rem;
+}
+
+.LinkActive {
+    filter: brightness(180%);
+    z-index: 3;
+    width: 100%;
+    color: white;
+    border-radius: .2rem 0 0 .2rem;
+}
+
+.Menu {
+    background: var(--color-primary);
+    color: white;
+    padding: 1rem;
+    border-bottom: 1px solid var(--color-light);
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    font-size: 1.7;
+}
+
+.MenuColorLabel {
+    color: var(--color-light);
+}
+
+.Menu:hover {
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    font-weight: bold;
+    margin-left: 1.5rem;
+    display: inline-block;
+    width: 100%;
+    border: none;
+    filter: brightness(180%);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}

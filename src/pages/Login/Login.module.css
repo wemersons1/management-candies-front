@@ -1,0 +1,153 @@
+.Login {
+    min-height: 100vh;
+    background-image: url('./img//background.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.Login form>div {
+    margin: 0;
+}
+
+.Login form {
+    background-color: var(--color-primary);
+    height: 40rem;
+    width: 34rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Login form * {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: .5px;
+    outline: none;
+    border: none;
+}
+
+.Login form h1 {
+    text-align: center;
+}
+
+.Login button {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    background: #00b8e3 !important;
+    opacity: 100;
+    border-radius: 10px !important;
+
+    color: var(--color-dark);
+}
+
+.Login form label {
+    padding-top: 1rem;
+
+}
+
+.Login form input {
+    text-align: center;
+    color: black !important;
+}
+
+.Login form img {
+    box-sizing: border-box;
+    display: flex;
+    padding: 1px 0;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+    margin: 0 auto;
+    opacity: 100;
+}
+
+.Register {
+    position: absolute;
+    bottom: 45px;
+    right: 2.7rem;
+    text-align: center;
+}
+
+.Login a {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Register a:hover {
+    font-weight: bold;
+    filter: brightness(50%);
+    transition: all .5s ease;
+    -webkit-transition: all .8s ease;
+}
+
+.Contact {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-light);
+    position: absolute;
+    bottom: 6rem;
+    width: 100%;
+}
+
+.ContactPhone {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-light);
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    padding-right: 14rem;
+}
+
+.Icon {
+    padding: .15rem .35rem .5rem .4rem;
+    border-radius: 50%;
+    background-color: var(--color-pay2b);
+    margin-right: .5rem;
+}
+
+.IconPhone {
+    padding: .15rem .35rem .5rem .4rem;
+    border-radius: 50%;
+    background-color: var(--color-pay2b);
+    margin-right: .5rem;
+}
+
+.IconSize {
+    width: 30px;
+
+}
+
+@media(max-width: 500px) {
+
+    .Contact,
+    .ContactPhone {
+        font-size: 1.4rem;
+    }
+
+    .ContactPhone {
+
+        padding-right: 10rem;
+    }
+
+    .Icon {
+        height: 20px;
+        width: 20px;
+    }
+
+
+}

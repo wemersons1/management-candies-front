@@ -1,0 +1,43 @@
+.Message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: .5rem;
+    width: 100%;
+}
+
+.Message > div {
+    text-align: center;
+    color: white;
+    border-radius: .5rem;
+}
+
+.info {
+    font-size: 1.5rem;
+    background-color: var(--color-primary);
+}
+
+.error {
+    color: var(--color-danger);
+    background-color: var(--color-danger);
+}
+
+.danger {
+    background-color: white;
+    color: var(--color-danger)!important;
+}
+
+.Simple {
+    background: transparent;
+    color: var(--color-primary)!important;
+    font-weight: bold;
+    width: 100%;
+    padding: .3rem;
+    font-size: 1rem;
+}
+
+.Simple:hover {
+    filter: brightness(0.4);
+    transition: all .4s ease;
+    -webkit-transition: all .8s ease;
+}

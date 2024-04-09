@@ -1,0 +1,26 @@
+.Container {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: .5rem;
+    max-width: 75rem;
+    min-height: 85vh;
+}
+
+.Container > div {
+    flex: 1;
+    min-width: 320px;
+}
+
+.biggest {
+    margin: 2rem auto;
+    border-radius: 1rem;
+    min-width: 100rem;
+    max-width: 110rem;
+}
+
+.small {
+    padding: .5rem;
+    max-width: 600px;
+    min-width: 300px;
+    width: 100%;
+}
